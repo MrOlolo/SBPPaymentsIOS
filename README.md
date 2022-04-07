@@ -1,8 +1,4 @@
-# SBPWidget
-
-[![Version](https://img.shields.io/cocoapods/v/SBPWidget.svg?style=flat)](https://cocoapods.org/pods/SBPWidget)
-[![License](https://img.shields.io/cocoapods/l/SBPWidget.svg?style=flat)](https://cocoapods.org/pods/SBPWidget)
-[![Platform](https://img.shields.io/cocoapods/p/SBPWidget.svg?style=flat)](https://cocoapods.org/pods/SBPWidget)
+# SBPPayment (old SBPWidget)
 
 ### Preview
 ![preview](art/preview.jpg)
@@ -13,18 +9,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-- iOS 11.0+ 
+- iOS 13.0+ 
 - Swift 5.0+
 
 ## Installation
 
-SBPWidget is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+To install it, simply add the following line to your Podfile:
 
 ```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-
-pod 'SBPWidget'
+s.dependency 'SBPayment'
 ```
 
 ## Quick Start

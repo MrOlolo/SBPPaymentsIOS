@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SBPWidget'
+  s.name             = 'SBPPayment'
   s.version          = '1.3.0'
-  s.summary          = 'SBPWidget provide modal window with list of banks'
+  s.summary          = 'SBPPayment provide modal window with list of banks which support sbp'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/0-mykola/SBPWidget'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mykola Hordynchuk' => 'dev.nikolaz@gmail.com' }
-  s.source           = { :git => 'https://github.com/mrololo/SBPWidget.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MrOlolo/SBPPaymentsIOS.git', :tag => s.version.to_s }
 
   s.source_files = 'SBPWidget/Sources/**/*'
   s.resources = 'SBPWidget/Assets/**/*'

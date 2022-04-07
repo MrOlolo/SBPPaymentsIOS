@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07BC5707412432374C82C03C /* SBPWidget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SBPWidget.podspec; path = ../SBPWidget.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		07BC5707412432374C82C03C /* SBPPayment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SBPPayment.podspec; path = ../SBPPayment.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		147C0EBCBE679AD802F23AB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		53DDA84770FCC05986FEA258 /* Pods-SBPWidget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBPWidget_Example.release.xcconfig"; path = "Target Support Files/Pods-SBPWidget_Example/Pods-SBPWidget_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SBPWidget_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBPWidget_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,7 +143,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				07BC5707412432374C82C03C /* SBPWidget.podspec */,
+				07BC5707412432374C82C03C /* SBPPayment.podspec */,
 				7C8AE27DD21B62B370D15827 /* README.md */,
 				147C0EBCBE679AD802F23AB4 /* LICENSE */,
 			);
