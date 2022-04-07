@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SBPWidget_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdS-8a-bWQ">
+                                <rect key="frame" x="142.5" y="318" width="90" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Show SBP"/>
+                                <connections>
+                                    <action selector="showSBP" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JSH-me-xGz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdi-A8-N0l" userLabel="Show dark SBP">
+                                <rect key="frame" x="87" y="389" width="203" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Show Custom SBP" titleAlignment="automatic"/>
+                                <connections>
+                                    <action selector="showCustomSBP" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5as-91-JOD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wdi-A8-N0l" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="71" id="747-3e-MUN"/>
+                            <constraint firstItem="JdS-8a-bWQ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="8MW-qp-yGM"/>
+                            <constraint firstItem="JdS-8a-bWQ" firstAttribute="centerX" secondItem="wdi-A8-N0l" secondAttribute="centerX" constant="-1" id="8rM-Zf-BMB"/>
+                            <constraint firstItem="JdS-8a-bWQ" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Znq-Vl-jTf"/>
+                            <constraint firstItem="JdS-8a-bWQ" firstAttribute="centerY" secondItem="wdi-A8-N0l" secondAttribute="centerY" constant="-71" id="bud-DR-aEU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

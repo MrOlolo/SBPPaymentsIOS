@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  SBPWidget
+
+  Created by m on 17.03.2021.
+  
+*/
+
+LS.SBPWidget.descriptionText = "Выберите банк\nдля подтверждения оплаты";
+LS.SBPWidget.emptyText = "Отсутствует банковское\nприложение";

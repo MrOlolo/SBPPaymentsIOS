@@ -1,0 +1,16 @@
+PODS:
+  - SBPWidget (1.2.0)
+
+DEPENDENCIES:
+  - SBPWidget (from `../`)
+
+EXTERNAL SOURCES:
+  SBPWidget:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SBPWidget: 81ec7c99e3eed5e1211f4991c05c1f78551072a9
+
+PODFILE CHECKSUM: c1403872b609fcb49209cd12875a2bf4630be0a7
+
+COCOAPODS: 1.11.2
