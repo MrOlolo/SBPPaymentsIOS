@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SBPPayment'
-  s.version          = '1.3.0'
-  s.summary          = 'SBPPayment provide modal window with list of banks which support sbp'
+  s.version          = '1.3.1'
+  s.summary          = 'SBPPayment (Old SBPWidget by Mykola Hordynchuk) provide modal window with list of banks which support sbp'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,9 +21,9 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/0-mykola/SBPWidget'
+  s.homepage         = 'https://github.com/MrOlolo/SBPPaymentsIOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Mykola Hordynchuk' => 'dev.nikolaz@gmail.com' }
+  s.author           = { 'MrOlolo' => '' }
   s.source           = { :git => 'https://github.com/MrOlolo/SBPPaymentsIOS.git', :tag => s.version.to_s }
 
   s.source_files = 'SBPWidget/Sources/**/*'
