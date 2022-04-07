@@ -293,11 +293,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SBPWidget_Example/Pods-SBPWidget_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SBPWidget/SBPWidget.framework",
+				"${BUILT_PRODUCTS_DIR}/SBPPayment/SBPPayment.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SBPWidget.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SBPPayment.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

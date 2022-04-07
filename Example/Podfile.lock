@@ -1,16 +1,16 @@
 PODS:
-  - SBPWidget (1.2.0)
+  - SBPPayment (1.3.1)
 
 DEPENDENCIES:
-  - SBPWidget (from `../`)
+  - SBPPayment (from `../`)
 
 EXTERNAL SOURCES:
-  SBPWidget:
+  SBPPayment:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SBPWidget: 81ec7c99e3eed5e1211f4991c05c1f78551072a9
+  SBPPayment: 7ccfaf259e8d4a6c1468823156328aa45e2f6b6d
 
-PODFILE CHECKSUM: c1403872b609fcb49209cd12875a2bf4630be0a7
+PODFILE CHECKSUM: 371d3bf7fc210c5db562a673f2779d8e92e21a17
 
 COCOAPODS: 1.11.2

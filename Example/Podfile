@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'SBPWidget_Example' do
-  pod 'SBPWidget', :path => '../'
+  pod 'SBPPayment', :path => '../'
 
   target 'SBPWidget_Tests' do
     inherit! :search_paths

@@ -6,7 +6,7 @@
 //  Copyright (c) 2021 Nikolay Hordynchuk. All rights reserved.
 //
 
-import SBPWidget
+import SBPPayment
 import UIKit
 
 class ViewController: UIViewController {
@@ -35,10 +35,10 @@ class ViewController: UIViewController {
     @IBAction func showCustomSBP() {
         SBPWidgetModule().show(on: self, backgroundColor: 0xFF293232, textColor: 0xFFFFFFFF) { result in
             switch result {
-            case .success: break
-            //        print(scheme ?? "widget has been closed")
-            case .failure: break
-                //        print(error)
+            case .success(let scheme):
+                print(scheme ?? "widget has been closed")
+            case .failure(let error):
+                print(error)
             }
         }
     }

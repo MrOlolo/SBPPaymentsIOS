@@ -17,14 +17,14 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 To install it, simply add the following line to your Podfile:
 
 ```ruby
-s.dependency 'SBPayment'
+s.dependency 'SBPPayment'
 ```
 
 ## Quick Start
 
 ```swift
 import UIKit
-import SBPWidget
+import SBPPayment
 
 class ViewController: UIViewController {
   
@@ -36,8 +36,13 @@ class ViewController: UIViewController {
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
     
-    SBPWidgetModule().show(on: self) { scheme in
-      print(scheme)
+    SBPWidgetModule().show(on: self) { result in
+        switch result {
+            case .success(let scheme):
+                print(scheme ?? "widget has been closed")
+            case .failure(let error):
+                print(error)
+        }
     }
   }
 }
